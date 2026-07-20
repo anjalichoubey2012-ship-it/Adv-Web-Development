@@ -2,6 +2,36 @@ body
 {
 text-align:center;
 background-color:green;
-flex-flow:"row wrap";
+}
 
+.flex-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;   
+}
+
+.card 
+{
+ background-color: white;
+ border: 2px solid black;
+ border-radius: 10px;
+ padding: 15px;
+ width: 220px;
+}
+
+.card img
+{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3
+{
+    margin-top: 10px;
 }
