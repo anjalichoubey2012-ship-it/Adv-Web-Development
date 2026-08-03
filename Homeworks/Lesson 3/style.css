@@ -1,0 +1,10 @@
+body{
+    text-align:center;
+    background-color:black;
+    color:white;
+}
+
+img:hover{
+    height:400px;
+    width:300px;
+}
