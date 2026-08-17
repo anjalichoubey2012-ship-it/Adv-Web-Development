@@ -1,12 +1,12 @@
 html{
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 body
 {
-font: 20px Montserrat,bsans-serrif;
+font: 20px Montserrat,sans-serif;
 line-height: 1.8;
-color: #f5f67;
+color: #f5f6f7;
 }
 
 p {
@@ -14,7 +14,7 @@ p {
 }
 
 .margin {
-    margin-bottm: 45px;
+    margin-bottom: 45px;
 
 }
 
@@ -81,4 +81,29 @@ min-height: 500px;
     margin-top: 50px;
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #001c00 !important;
+}
+
+.gallery {
+    width: 100%;
+
+    box-shadow: grey 2px 2px 5px;
+}
+
+.imgDiv {
+    height: 350px;
+    overflow: hiddenn;
 }
