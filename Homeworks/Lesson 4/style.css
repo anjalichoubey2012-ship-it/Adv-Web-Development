@@ -1,0 +1,42 @@
+
+body
+{
+text-align:center;
+background-color:black;
+color:white;
+}
+
+body{
+    height : 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.login-container{
+    width : 350px;
+    padding : 30px;
+
+}
+
+label {
+    display: block;
+    margin-bottom : 5px;
+}
+
+input{
+    width : 100%;
+    padding : 10px;
+    margin-bottom: 15px;
+
+}
+
+button{
+    width : 30%;
+    background-color: black;
+    color : white;
+    padding : 10px;
+    border : 1px solid white;
+
+    cursor : pointer;
+}
