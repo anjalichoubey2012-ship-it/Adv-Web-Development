@@ -1,0 +1,34 @@
+body{
+    text-align:center;
+    font-family: 'Silkscreen', cursive;
+    color:#FFFF00;
+    background-image: url("./images/background.gif");
+}
+#btn{
+    border-radius:20px;
+    background-color: #FFFF00;
+    color:#DD2C00;
+    height:50PX;
+    width:80PX;
+    border: 1PX GREY SOLID;
+    font-size: 20px;
+    margin-top:20px;
+}
+#name{
+    height:30px;
+    width:300px;
+    border: 2px blue solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+    #dis{
+        color:black;
+        text-align:center;
+        margin-left:10%;
+        width:80%;
+        font-family: sans-serif;
+    }
+    #dis p{
+        margin-top:10px;
+    }
