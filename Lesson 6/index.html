@@ -37,5 +37,64 @@
                 </a>
             </div>
         </section>
-    </body>
+
+        <section clas="movie-section" id="movies">
+         <div class="section-heading">
+         <div>
+            <p class="section-label">MOVIE COLLECTION</p>
+            <h2>Explore Movies</h2>
+         </div>
+         <p id="movie-count"></p>
+         </div>
+         <div class="controls">
+            <div class="search-box">
+            <span>🔍</span>
+            <input type="text" id="search-input" placeholder="Search for a movie..."">    
+            </div>
+            <select id="genre-filter">
+            <option value="ALL">ALL Genres</option>
+            <option value="Action">Action</option>
+            <option value="Animation">Animation</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Drama">Drama</option>
+            <option value="Comedy">Comedy</option>
+            </select>
+            <button id="reset-button">
+             Reset
+            </button>
+        </div>
+        <div id="movie-container" class="movie-grid"></div>
+        <div id="no-results" class="no-results hidden">
+            <div class=""no-results-icon>
+             🎬
+            </div>
+            <h3>No Movies Found</h3>
+            <p>
+              Try searching for another movie or changing the genre.   
+            </p>
+      </div>
+    </section>
+
+    <section class="aboit-section" id="about">
+     <p class="section-label">ABOUT</p>
+     <h2>Discover Something New</h2>
+     <p>
+        CineSearch is a simple movie discovery website created using HTML, CSS and modern JavaScript ES6.
+     </p>
+    </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+          © 2026 CineSearch | Built with HTML, CSS & JavaScript ES6
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+    
+  </body>
 </html>
