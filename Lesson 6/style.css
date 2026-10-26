@@ -43,4 +43,138 @@ body{
     display: flex;
     align-items: center;
     padding: 80px 7%;
+
+    background:fixedlinear-gradient(
+        90deg,
+        #0b0b0f 15%,
+        rgba(11,11,15,0.85) 45%,
+        rgba(11,11,15,0.2)
+    ),
+    url("https://image.tmdb.org/t/p/original/5UkzNSOK561c2QR4X7oM3AMrZ3.jpg")
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width:650px;
+}
+.small-title
+.small label{
+    color: #ffcc00;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size :58px;
+    line-height:1.05;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #ffcc00;
+}
+
+.hero-text {
+    color: #cccccc;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.explore-btn {
+    display: inline-block;
+
+    background: #ffcc00;
+    color:#111;
+
+    padding: 14px 25px;
+
+    border-radius: 8px;
+    
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    transform: translateY(-3px);
+}
+.movies-section {
+    padding: 80px 7%;
+}
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-item: end;
+
+    margin-bottom: 30px;
+}
+.section-heading h2,
+.about-section h2 {
+    font-size: 40 px;
+}
+
+#movie-count {
+    color: #aaaaaa;
+}
+.controls {
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 40px;
+
+    flex-wrap: wrap;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 250px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    background: #17171d;
+
+    border: 1px solid #2d2d35;
+
+    border-radius: 8px;
+
+    padding: 15px 0;
+
+ border: none;
+ outline: none;
+
+ background: transparent;
+
+ color: white;
+
+ font-size: 15px;
+}
+
+.search-box input::placeholder {
+   color: #777777; 
+}
+
+#genre-filter {
+    padding: 0 18px;
+
+    background: #17171d;
+
+    color: white;
+
+    border: 1px solid #2d2d35;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    min-width: 160px;
 }
